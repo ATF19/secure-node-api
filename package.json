@@ -22,7 +22,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-promise-router": "^2.0.0",
-    "joi": "^10.6.0",
+    "joi": "^13.0.0",
     "jsonwebtoken": "^8.0.0",
     "mongoose": "^4.11.10",
     "morgan": "^1.8.2",
