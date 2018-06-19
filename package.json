@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "node",
@@ -29,6 +31,8 @@
     "nodemon": "^1.12.0",
     "passport": "^0.4.0",
     "passport-jwt": "^3.0.0",
-    "passport-local": "^1.0.0"
-  }
+    "passport-local": "^1.0.0",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
